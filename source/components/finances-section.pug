@@ -1,0 +1,67 @@
+section.finances-section
+  .wrapper
+    .finances-section__container
+      .finances-section__box
+        img.finances-section__icon(src="images/finances-section-icon.svg" loading="lazy" width="49" height="49" alt="icon")
+        h2.finances-section__title.font-w-d-bold
+          span.font-s-32 Поговорим о вложениях
+          br
+          span.font-s-46
+            span.finances-section__title-secondary и прибыли 
+            | агентства
+        .finances-section__cards-wrapper
+          .swiper-bullet
+            .finances-section__cards.swiper-wrapper
+              .finances-section__card.swiper-slide
+                img.finances-section__card-icon(src="images/finances-section-card-icon-1.png" loading="lazy" width="50" height="50" alt="icon")
+                .finances-section__card-text
+                  .finances-section__card-title.font-w-d-regular 420 000 руб
+                  .font-s-16 чистая ежемесячная <br> прибыль
+              .finances-section__card.swiper-slide
+                img.finances-section__card-icon(src="images/finances-section-card-icon-2.png" loading="lazy" width="50" height="50" alt="icon")
+                .finances-section__card-text
+                  .finances-section__card-title.font-w-d-regular 1 месяц
+                  .font-s-16 понадобится <br> на запуск
+              .finances-section__card.swiper-slide
+                img.finances-section__card-icon(src="images/finances-section-card-icon-3.png" loading="lazy" width="50" height="50" alt="icon")
+                .finances-section__card-text
+                  .finances-section__card-title.font-w-d-regular 765 000 руб
+                  .font-s-16 средний размер <br> вложений
+              .finances-section__card.swiper-slide
+                img.finances-section__card-icon(src="images/finances-section-card-icon-4.png" loading="lazy" width="50" height="50" alt="icon")
+                .finances-section__card-text
+                  .finances-section__card-title.font-w-d-regular 5 месяцев
+                  .font-s-16 средний срок <br> окупаемости
+              .finances-section__card.swiper-slide
+                img.finances-section__card-icon(src="images/finances-section-card-icon-5.png" loading="lazy" width="50" height="50" alt="icon")
+                .finances-section__card-text
+                  .finances-section__card-title.font-w-d-regular 7 530 000 руб
+                  .font-s-16 средний размер <br> ежемесячной выручки
+              .finances-section__card.swiper-slide
+                img.finances-section__card-icon(src="images/finances-section-card-icon-6.png" loading="lazy" width="50" height="50" alt="icon")
+                .finances-section__card-text
+                  .finances-section__card-title.font-w-d-regular 10 000 ₽
+                  .font-s-16 размер среднего <br> чека
+            .bullet-pagination
+      .finances-section__bottom
+        img.finances-section__bottom-img(src="images/finances-section-bottom-img.png" loading="lazy" width="698" height="614" alt="image")
+        .finances-section__bottom-text
+          .finances-section__bottom-title.font-w-bold
+            | Хотите получить 
+            br.no-br
+            | детальные цифры для 
+            br.no-br
+            | вашего города 
+            br.no-br
+            | и под ваш бюджет?
+          .finances-section__bottom-sub-title
+            | Скачайте финансовую модель 
+            br.no-br
+            | франшизы «САХА АВИА ТУР»
+        .finances-section__bottom-form-bg
+          form.finances-section__form(data-feedback-form)
+            input(type="text" name="honeyfield" class="honeypot" style="display:none")
+            input.input(type="text" name="name" autocomplete="off" placeholder="Имя")
+            input.input(type="tel" name="phone" autocomplete="off" data-inputmask="'mask': '+7 (999) 999 9999'" placeholder="Телефон")
+            button.btn(type="submit") Скачать
+      img.finances-section__img(src="images/finances-section-img.png" loading="lazy" width="966" height="793" alt="image")

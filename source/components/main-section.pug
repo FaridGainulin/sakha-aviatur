@@ -1,0 +1,42 @@
+section.main-section
+  .wrapper
+    .main-section__container
+      include ../components/header.pug
+      h1.main-section__title.font-w-d-bold.text-up
+        span.main-section__title-main.font-s-80 Откройте 
+        br
+        span.font-s-42
+          | туристическое агентство 
+          br
+          | по франшизе «САХА АВИА ТУР»
+
+
+      .main-section__sub-title
+        img.main-section__sub-title-img(src="images/main-section-sub-title-img.png" loading="lazy" width="180" height="202" alt="image")
+        .main-section__sub-title-text.font-w-bold.font-s-20
+          | Зарабатывайте от 420 000 ₽ чистой 
+          br.no-br
+          | прибыли ежемесячно 
+          span.font-w-regular
+            | на продаже авиа 
+            br.no-br
+            | и жд билетов по льготным тарифам
+
+      .main-section__bottom
+        .main-section__bottom-box
+          img.main-section__bottom-img(src="images/main-section-bottom-img.png" loading="lazy" width="458" height="376" alt="image")
+          .font-w-bold.font-s-16
+            | Получите предложение и 
+            br.no-br
+            | узнайте условия запуска 
+            br.no-br
+            span.font-w-regular
+              | прибыльного бизнеса 
+              br.no-br
+              | с командой «Саха Авиа Тур»
+        form.main-section__form(data-feedback-form)
+          input(type="text" name="honeyfield" class="honeypot" style="display:none")
+          input.input(type="text" name="name" autocomplete="off" placeholder="Имя")
+          input.input(type="tel" name="phone" autocomplete="off" data-inputmask="'mask': '+7 (999) 999 9999'" placeholder="Телефон")
+          button.btn(type="submit") Узнать условия
+      img.main-section__img(src="images/main-section-img.png" loading="lazy" width="1920" height="1000" alt="image")

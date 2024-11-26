@@ -1,0 +1,58 @@
+section.start-section
+  .wrapper
+    .start-section__container
+      .start-section__title
+        h2.font-w-d-regular.font-s-45
+          | Вы можете открыть свое 
+          br.no-br
+          | туристическое агентство 
+          br.no-br
+          span.font-w-d-bold всего за 1 месяц
+        .start-section__title-block
+          img.start-section__title-icon(src="images/start-section-title-icon.png" loading="lazy" width="128" height="106" alt="icon")
+          .start-section__title-block-text
+            | с минимальными 
+            br
+            | вложениями на старте
+  .start-section__box
+    .start-section__box-head.font-s-22
+      span.font-w-bold Выберите размер вашего города
+      br
+      | и узнайте величину паушального взноса и сумму инвестиций!
+    .start-section__box-body
+      .swiper-bullet
+        .start-section__cards.swiper-wrapper
+          .start-section__card.swiper-slide
+            .start-section__card-head
+              img.start-section__card-img(src="images/start-section-card-img-1.jpg" loading="lazy" width="22" height="22" alt="image")
+              .start-section__card-text
+                .start-section__card-title.font-w-d-bold до 500 000
+                .start-section__card-sub-title.font-w-d-bold.font-s-18 жителей
+            form.start-section__form(data-feedback-form)
+              input(type="text" name="honeyfield" class="honeypot" style="display:none")
+              input.input(type="text" name="name" autocomplete="off" placeholder="Имя")
+              input.input(type="tel" name="phone" autocomplete="off" data-inputmask="'mask': '+7 (999) 999 9999'" placeholder="Телефон")
+              button.btn(type="submit") УЗНАТЬ
+          .start-section__card.swiper-slide
+            .start-section__card-head
+              img.start-section__card-img(src="images/start-section-card-img-2.jpg" loading="lazy" width="22" height="22" alt="image")
+              .start-section__card-text
+                .start-section__card-title.font-w-d-bold до 1 000 000
+                .start-section__card-sub-title.font-w-d-bold.font-s-18 жителей
+            form.start-section__form(data-feedback-form)
+              input(type="text" name="honeyfield" class="honeypot" style="display:none")
+              input.input(type="text" name="name" autocomplete="off" placeholder="Имя")
+              input.input(type="tel" name="phone" autocomplete="off" data-inputmask="'mask': '+7 (999) 999 9999'" placeholder="Телефон")
+              button.btn(type="submit") УЗНАТЬ
+          .start-section__card.swiper-slide
+            .start-section__card-head
+              img.start-section__card-img(src="images/start-section-card-img-3.jpg" loading="lazy" width="22" height="22" alt="image")
+              .start-section__card-text
+                .start-section__card-title.font-w-d-bold от 1 000 000
+                .start-section__card-sub-title.font-w-d-bold.font-s-18 жителей
+            form.start-section__form(data-feedback-form)
+              input(type="text" name="honeyfield" class="honeypot" style="display:none")
+              input.input(type="text" name="name" autocomplete="off" placeholder="Имя")
+              input.input(type="tel" name="phone" autocomplete="off" data-inputmask="'mask': '+7 (999) 999 9999'" placeholder="Телефон")
+              button.btn(type="submit") УЗНАТЬ
+        .bullet-pagination

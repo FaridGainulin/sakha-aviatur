@@ -1,0 +1,69 @@
+.header
+  &__container
+    display: flex
+    justify-content space-between
+    align-items: center
+
+  &__brand-block
+    display: flex
+    align-items: center
+    background-color #ffffff20
+    gap: 8px;
+    border-radius: 5px;
+    width: 180px;
+    height: 40px;
+    padding-left: 8px;
+    +above($breakpoints.sm)
+      border-radius: 8px
+      width: 260px;
+      height: 60px;
+      padding-left: 15px;
+    +above($breakpoints.md)
+      border-radius: 10px
+      width: 293px;
+      height: 65px;
+      padding-left: 15px;
+    +above($breakpoints.xxl)
+      border-radius: 13px
+      width: 313px;
+      height: 70px;
+      padding-left: 15px;
+
+  &__logo
+    width 65px
+    height: auto
+    +above($breakpoints.sm)
+      width 120px
+    +above($breakpoints.md)
+      width 140px
+    +above($breakpoints.xxl)
+      width 150px
+
+  &__brand-bg
+    display: flex
+    justify-content center
+    align-items: center
+    background-color #fff
+    color: $color-blue
+    width 100px
+    height: 100%
+    border-radius: 5px
+    +above($breakpoints.sm)
+      border-radius: 8px
+      width 120px
+    +above($breakpoints.md)
+      border-radius: 10px
+      width 130px
+    +above($breakpoints.xxl)
+      border-radius: 13px
+      width 138px
+
+  &__brand
+    display: none
+    +above($breakpoints.sm)
+      display: block
+
+  &__phone-number-wrapper
+    +above($breakpoints.sm)
+      display: none
+

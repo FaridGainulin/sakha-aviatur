@@ -1,0 +1,28 @@
+section.city-section
+  .wrapper
+    .city-section__container
+      .city-section__box
+        h2.city-section__title.font-w-bold
+          | Станьте владельцем 
+          br.no-br
+          | прибыльного 
+          br.no-br
+          | туристического агентства
+        .city-section__sub-title.font-w-d-bold.font-s-42
+          | вместе с франшизой 
+          br.no-br
+          | «САХА АВИА ТУР»
+        .city-section__bottom
+          .city-section__bottom-title.font-w-bold
+            | Проверьте, 
+            br.no-br
+            span.city-section__bottom-sub-title.font-w-regular
+              | свободен ли ваш город для 
+              br.no-br
+              | открытия бизнеса
+          form.city-section__form(data-feedback-form)
+            input(type="text" name="honeyfield" class="honeypot" style="display:none")
+            input.input(type="text" name="name" autocomplete="off" placeholder="Имя")
+            input.input(type="tel" name="phone" autocomplete="off" data-inputmask="'mask': '+7 (999) 999 9999'" placeholder="Телефон")
+            button.btn(type="submit") Узнать условия
+        img.city-section__img(src="images/city-section-img.png" loading="lazy" width="936" height="630" alt="image")

@@ -1,0 +1,57 @@
+.footer
+  background-color: #fff
+
+  &__container
+    display: flex
+    align-items: center
+    flex-direction: column
+    color: #2C2929
+    gap: 10px
+    padding 10px 0
+    +above($breakpoints.sm)
+      flex-direction: row
+      justify-content space-between
+      padding 15px 0
+    +above($breakpoints.md)
+      padding 20px 0
+    +above($breakpoints.xxl)
+      padding 24px 0 25px
+
+  &__brand
+    display: none
+    +above($breakpoints.sm)
+      display: flex
+      flex-direction: column
+      gap: 2px
+      border-left: 1px solid #4271A9
+      padding 2px 0 2px 10px
+    +above($breakpoints.md)
+      padding 3px 0 3px 12px
+    +above($breakpoints.xxl)
+      padding 4px 0 4px 14px
+
+  &__logo
+    width 140px
+    height: auto
+    +above($breakpoints.sm)
+      width 140px
+    +above($breakpoints.md)
+      width 160px
+    +above($breakpoints.xxl)
+      width 186px
+
+  &__privacy
+    cursor pointer
+    text-decoration: underline
+    color: #4271A9
+    +above($breakpoints.sm)
+      display: none
+
+  &__phone-number-wrapper
+    +above($breakpoints.sm)
+      display: none
+
+  &__call-me
+    display: none
+    +above($breakpoints.sm)
+      display: flex
